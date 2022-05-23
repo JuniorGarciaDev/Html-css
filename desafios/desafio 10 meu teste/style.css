@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid' ;
+    src: url(fontes/idroid.otf);
+}
+
+.imagem {
+    width: 100%;
+}
+
+body {
+    background-color: #44E18B;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+
+
+h2{
+    background-color: #02C75B;
+    color: #16472C;
+    margin: 0px 10px 0px 10px;
+    background-image: linear-gradient(to right,#44E18B,#02C75B,white 50% );
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    
+}
+
+iframe {
+    border-style: solid;
+    border-color: #16472C;
+    border-width: 15px 20px 15px 20px;
+    width: 790px;
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(to bottom,#44E18B,#02C75B,#16472C);
+    color: rgb(255, 255, 255);
+    margin: auto;
+
+}
+
+header > nav >a:hover{
+    background-color: #02C75B;
+}
+
+
+header > nav { 
+    text-align: left;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 0px 0px 10px;
+}
+
+
+
+main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
+}
+
+main > p {
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+    text-indent: 20px;
+}
+
+footer {
+    background-color:  white;
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+footer > div > h1 {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+footer > article{
+    background-color: #24e77cab;
+    margin: 0px 0px 0px 29px;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 320px;
+    max-width: 841px;
+}
+
+footer > article > article > div > a {
+    color: black;
+}
+
+footer > p {
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+    text-indent: 20px;
+}
+
+
+.linknotexto {
+    color: #006a00;
+    text-decoration: none;
+}
+
+.fonteidroid{
+    font-family: 'idroid';
+}
+
+#Historia{
+    color: #16472C;
+    text-align: left;
+    margin: 0px 0px 0px 20px;
+    padding: 10px;
+}
+
+#Final {
+    background-color: #16472C;
+    text-align: center;
+    padding: 14px 10px 10px 10px;
+    margin: 0px;
+}
+
+#Queraprender{
+    background-color: #02C75B;
+    padding: 1px 0px 17px 3px;
+    height: 20px;
+    border-radius: 10px 10px 0px 0px;
+    width: 838px;
+    margin: 0px 10px -16px 29px;
+}
+
+.linkdisplay{
+    display: inline-block;
+    margin:6px 259px 5px 37px;
+}
+

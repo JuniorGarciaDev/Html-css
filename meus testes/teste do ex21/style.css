@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(80, 84, 141);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin: 0px;
+}
+footer > h1 {
+    margin: 0px;
+}
+section {
+    background-color: rgb(19, 16, 16);
+    color: red;
+}
+article{
+    background-color: rgb(45, 65, 92);
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.linkcorhover:hover{
+    color: lightgoldenrodyellow;
+}
+header > section > article {
+    display: none;
+}
+header > section:hover > article{
+    display: block;
+}
+a:hover{
+    color: lightgoldenrodyellow;
+}
+a:visited {
+    color: lightgreen;
+}
+footer > h1 {
+    text-align:  center;
+    font-size: 16px;
+}
+
