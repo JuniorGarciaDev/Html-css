@@ -70,14 +70,19 @@ input{
 
 @media screen and (min-width: 769px) {
     body{
-        height: 95.5vh;
+        position: relative;
+        height: 100vh;
        background-image: linear-gradient(to bottom,blueviolet,aqua);
        background-repeat: no-repeat;
     }
 
     main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
         width: 700px;
-        height: 300px;
+        height: 250px;
         margin: none;
         background-position: left;
         text-align: right;
